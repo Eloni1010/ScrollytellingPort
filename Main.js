@@ -8,7 +8,7 @@ const curtainTl = gsap.timeline({
     end: "+=1500",
     scrub: 1,
     pin: true,
-    anticipatePin: 1
+    anticipatePin: 1,
   }
 });
 
@@ -21,7 +21,7 @@ curtainTl.to(leftPanels, {
   transformOrigin: "top left", 
   opacity: 0,                   
   stagger: 0.05,
-  ease: "power1.inOut"
+  ease: "power1.inOut",
 })
 .to(rightPanels, {
   rotation: 65,                 
@@ -30,7 +30,7 @@ curtainTl.to(leftPanels, {
   transformOrigin: "top right",
   opacity: 0,
   stagger: 0.05,
-  ease: "power1.inOut"
+  ease: "power1.inOut",
 }, "<");
 gsap.from(".firstMeet", {
   x: "60vw",
