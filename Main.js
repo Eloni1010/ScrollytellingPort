@@ -1,3 +1,6 @@
+document.addEventListener("DOMContentLoaded", (event) => {
+  gsap.registerPlugin(ScrollTrigger)
+ });
 gsap.registerPlugin(ScrollTrigger);
 const curtainTl = gsap.timeline({
   scrollTrigger: {
