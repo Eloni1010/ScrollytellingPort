@@ -1,5 +1,4 @@
 gsap.registerPlugin(ScrollTrigger);
-alert("js is connected");
 const curtainTl = gsap.timeline({
   scrollTrigger: {
     trigger: ".curtain-container",
