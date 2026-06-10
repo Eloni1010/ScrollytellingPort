@@ -12,6 +12,11 @@ html::before {
   padding: 4px 8px;
   border-radius: 4px;
 }
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 :root{
   --pierrotColor: #C90D27;
   --pierrotText:#FFCC00;
