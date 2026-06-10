@@ -38,7 +38,8 @@ gsap.from(".firstMeet", {
   scrollTrigger: {
     trigger: ".firstMeetMove",
     start: "top bottom", 
-    toggleActions: "play pause resume pause" 
+    toggleActions: "play pause resume pause",
+    immediateRender: false,
   }
 });
 gsap.to("#ticketPink", {
@@ -53,7 +54,8 @@ gsap.to("#ticketPink", {
   scrollTrigger: {
     trigger: ".variables",
     start: "top bottom", // Starts playing when the top of the container enters the bottom of the screen
-    toggleActions: "play pause resume pause" // Plays when visible, pauses when scrolled away
+    toggleActions: "play pause resume pause", // Plays when visible, pauses when scrolled away
+    immediateRender: false,
   }
 });
 gsap.from(".variablesChat", {
@@ -62,7 +64,8 @@ gsap.from(".variablesChat", {
   scrollTrigger: {
     trigger: ".variablesChatMove",
     start: "top bottom", 
-    toggleActions: "play pause resume pause" 
+    toggleActions: "play pause resume pause",
+    immediateRender: false,
   }
 });
 gsap.to("#ticketRed", {
@@ -76,7 +79,7 @@ gsap.to("#ticketRed", {
   scrollTrigger: {
     trigger: ".altTicket",
     start: "top bottom", 
-    toggleActions: "play pause resume pause" 
+    toggleActions: "play pause resume pause", 
   }
 });
 gsap.to(".TT", {
@@ -86,7 +89,7 @@ gsap.to(".TT", {
   scrollTrigger: {
     trigger: ".TTMove",
     start: "top bottom", 
-    toggleActions: "play pause resume pause" 
+    toggleActions: "play pause resume pause", 
   }
 });
 gsap.from(".tentAndTicket", {
@@ -96,7 +99,8 @@ gsap.from(".tentAndTicket", {
   scrollTrigger: {
     trigger: ".circus",
     start: "top bottom", 
-    toggleActions: "play pause resume pause" 
+    toggleActions: "play pause resume pause",
+    immediateRender: false,
   }
 });
 gsap.from(".memory", {
@@ -105,7 +109,8 @@ gsap.from(".memory", {
   scrollTrigger: {
     trigger: ".memoryMove",
     start: "top bottom", 
-    toggleActions: "play pause resume pause" 
+    toggleActions: "play pause resume pause",
+    immediateRender: false,
   }
 });
   });
