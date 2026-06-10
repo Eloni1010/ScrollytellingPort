@@ -109,3 +109,4 @@ gsap.from(".memory", {
   }
 });
   });
+ScrollTriggger.refresh();
