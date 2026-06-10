@@ -24,6 +24,11 @@ html::before {
   --lightGrey:#787878;
   --darkGrey:#000000;
 }
+html, body {
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+}
 body {
   background: var(--lightGrey);
 }
