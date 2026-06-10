@@ -115,4 +115,4 @@ gsap.from(".memory", {
   }
 });
   });
-ScrollTriggger.refresh();
+ScrollTrigger.refresh();
