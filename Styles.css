@@ -1,0 +1,41 @@
+html::before {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  font-family: monospace;
+  opacity: 0.6;
+  background: rebeccapurple;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+:root{
+  --pierrotColor: #C90D27;
+  --pierrotText:#FFCC00;
+  --columbinaColor: #FF84D6;
+  --harlequinColor: #00B400;
+  --jesterColor: #9402B3;
+  --ticketTakerColor:#ffffff;
+  --doctorColor:#00B1A8;
+  --mcColor:#787878;
+  --lightGrey:#787878;
+  --darkGrey:#000000;
+}
+body {
+  background: var(--lightGrey);
+}
+.curtain {
+  fill: #9390f2;
+  stroke: #6f6cbd;
+  stroke-width: 10px;
+}
+.variables {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+
