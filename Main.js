@@ -1,7 +1,6 @@
 gsap.registerPlugin(ScrollTrigger);
 document.addEventListener("DOMContentLoaded", (event) => {
   gsap.registerPlugin(ScrollTrigger)
- });
 const curtainTl = gsap.timeline({
   scrollTrigger: {
     trigger: ".curtain-container",
@@ -109,3 +108,4 @@ gsap.from(".memory", {
     toggleActions: "play pause resume pause" 
   }
 });
+  });
